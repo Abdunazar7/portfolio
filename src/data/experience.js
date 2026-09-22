@@ -1,0 +1,44 @@
+// Work experience, newest first.
+// Check the dates: I estimated them from your GitHub history.
+
+export const experience = [
+  {
+    role: 'Software Engineer',
+    company: 'BMS Smart Home',
+    type: 'Smart building systems',
+    start: 'Jun 2026',
+    end: 'Present',
+    points: [
+      'Built a native Kotlin and Jetpack Compose wall-tablet app that controls a whole apartment from one screen. The same app runs on the owner\'s phone.',
+      'Shipped a kiosk browser that locks tablets to the building dashboard, survives reboots and updates itself from GitHub releases.',
+      'Wrote Home Assistant integrations: a live 3D floor plan in Three.js and a push-to-talk intercom that streams to any speaker.',
+    ],
+    stack: ['Kotlin', 'Jetpack Compose', 'Python', 'Home Assistant', 'Three.js'],
+  },
+  {
+    role: 'Software Engineer',
+    company: 'Najot Ta\'lim',
+    type: 'IT education centre',
+    start: 'Mar 2026',
+    end: 'Present',
+    points: [
+      'Develop internal web applications and REST APIs with NestJS, PostgreSQL and React.',
+      'Take features from database schema to finished UI, including auth, roles and reporting.',
+      'Handle deployment, code review and production fixes.',
+    ],
+    stack: ['NestJS', 'PostgreSQL', 'Prisma', 'React', 'TypeScript'],
+  },
+  {
+    role: 'Full-Stack Developer',
+    company: 'Freelance',
+    type: 'Remote',
+    start: 'Sep 2025',
+    end: 'Present',
+    points: [
+      'Designed and shipped EduFlow, a multi-tenant LMS and CRM for education centres with 33 API modules, Telegram account activation and an AI assistant.',
+      'Built GymBros, a gym CRM with memberships, check-ins, payments and analytics dashboards.',
+      'Launched LandMeasure, a free trilingual land-area calculator on OpenStreetMap, plus e-commerce storefronts for clients.',
+    ],
+    stack: ['NestJS', 'Prisma', 'React', 'Next.js', 'Vercel'],
+  },
+]
