@@ -1,20 +1,7 @@
-// Work experience, newest first.
-// Check the dates: I estimated them from your GitHub history.
+// Work experience, newest first. Only paid roles belong here —
+// personal products live in projects.js instead.
 
 export const experience = [
-  {
-    role: "Software Engineer",
-    company: "Najot Ta'lim",
-    type: "IT education centre",
-    start: "Sep 2025",
-    end: "Feb 2026",
-    points: [
-      "Develop internal web applications and REST APIs with NestJS, PostgreSQL and React.",
-      "Take features from database schema to finished UI, including auth, roles and reporting.",
-      "Handle deployment, code review and production fixes.",
-    ],
-    stack: ["NestJS", "PostgreSQL", "Prisma", "React", "TypeScript"],
-  },
   {
     role: "Software Engineer",
     company: "BMS Smart Home",
@@ -35,16 +22,16 @@ export const experience = [
     ],
   },
   {
-    role: "Full-Stack Developer",
-    company: "Freelance",
-    type: "Remote",
+    role: "Software Engineer",
+    company: "Najot Ta'lim",
+    type: "IT education centre",
     start: "Sep 2025",
-    end: "Present",
+    end: "Feb 2026",
     points: [
-      "Designed and shipped EduFlow, a multi-tenant LMS and CRM for education centres with 33 API modules, Telegram account activation and an AI assistant.",
-      "Built GymBros, a gym CRM with memberships, check-ins, payments and analytics dashboards.",
-      "Launched LandMeasure, a free trilingual land-area calculator on OpenStreetMap, plus e-commerce storefronts for clients.",
+      "Develop internal web applications and REST APIs with NestJS, PostgreSQL and React.",
+      "Take features from database schema to finished UI, including auth, roles and reporting.",
+      "Handle deployment, code review and production fixes.",
     ],
-    stack: ["NestJS", "Prisma", "React", "Next.js", "Vercel"],
+    stack: ["NestJS", "PostgreSQL", "Prisma", "React", "TypeScript"],
   },
 ];

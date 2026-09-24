@@ -6,7 +6,7 @@ export default function Experience() {
     <section id="experience" aria-labelledby="exp-h">
       <div className="head">
         <h2 id="exp-h">Experience</h2>
-        <p>Over a year of shipping software for clients, an education company and a smart-building team, often all at once.</p>
+        <p>A year of building software for an education company and a smart-building team. The products above are my own.</p>
       </div>
       <ol className="timeline">
         {experience.map((e) => (
