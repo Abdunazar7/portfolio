@@ -8,6 +8,7 @@ import Experience from './components/Experience.jsx'
 import Education from './components/Education.jsx'
 import Skills from './components/Skills.jsx'
 import Contact from './components/Contact.jsx'
+import ScrollTop from './components/ScrollTop.jsx'
 import { projects } from './data/projects.js'
 
 export default function App() {
@@ -27,6 +28,7 @@ export default function App() {
         <Contact />
       </main>
       <ProjectDialog project={open} onClose={() => setOpenId(null)} />
+      <ScrollTop />
     </div>
   )
 }

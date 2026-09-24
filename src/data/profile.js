@@ -11,7 +11,7 @@ export const profile = {
     'Full-stack developer with over a year of hands-on work on production products: learning platforms, gym CRMs, map tools and smart-building software. I care about solid data models, secure auth and interfaces that people actually enjoy using.',
   available: 'Open to full-time roles and freelance projects',
   email: 'abdunazaribragimov945@gmail.com',
-  cv: '/cv-abdunazar-ibragimov.pdf',
+  cv: '/Abdunazar_Ibragimov_CV.pdf',
   links: {
     github: 'https://github.com/Abdunazar7',
     telegram: 'https://t.me/ibragimov_abdunazar',

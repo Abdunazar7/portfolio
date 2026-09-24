@@ -233,3 +233,22 @@ footer { padding: 28px 0 40px; color: var(--muted); font-size: .875rem; display:
 .tb-rooms div.on i { background: #F5C451; box-shadow: 0 0 10px #F5C451 }
 .tablet figcaption { color: var(--muted); font-size: .8125rem }
 @media (max-width: 480px) { .tablet-screen { border-width: 7px; padding: 12px; aspect-ratio: auto } .tb-rooms { grid-template-columns: repeat(2, 1fr) } .tb-stats .tb-off { margin-left: 0 } }
+
+/* ── Back to top ────────────────────────────────────── */
+.to-top {
+  position: fixed; right: 24px; bottom: 24px; z-index: 50;
+  width: 48px; height: 48px; padding: 0; border: 0; border-radius: 50%; cursor: pointer;
+  display: grid; place-items: center; background: var(--surface); color: var(--ink);
+  box-shadow: 0 0 0 1px var(--line), 0 6px 20px rgba(8, 12, 18, .18);
+  opacity: 0; visibility: hidden; transform: translateY(12px) scale(.9);
+  transition: opacity .25s, transform .25s, visibility .25s;
+}
+.to-top.on { opacity: 1; visibility: visible; transform: none }
+.to-top:hover { color: var(--accent) }
+.to-top .ring { position: absolute; inset: 0; width: 48px; height: 48px; transform: rotate(-90deg) }
+.to-top .ring circle { fill: none; stroke-width: 2 }
+.to-top .ring-bg { stroke: var(--line) }
+.to-top .ring-fill { stroke: var(--accent); transition: stroke-dashoffset .15s linear }
+.to-top .arrow { width: 19px; height: 19px; position: relative }
+@media (max-width: 600px) { .to-top { right: 16px; bottom: 16px; width: 44px; height: 44px } }
+@media (prefers-reduced-motion: reduce) { .to-top { transition: none } .to-top .ring-fill { transition: none } }
