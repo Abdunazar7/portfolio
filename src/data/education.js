@@ -4,30 +4,30 @@
 
 export const education = [
   {
-    school: 'Tashkent University of Information Technologies (TUIT)',
-    program: 'Economics, Faculty of Economics and Management in ICT',
-    kind: 'Bachelor\'s degree, in progress',
-    start: '2024',
-    end: 'Present',
-    note: 'Studying how technology businesses run: economics, management and the ICT market.',
+    school: "Najot Ta'lim",
+    program: "Programming Foundation bootcamp",
+    kind: "3.5 months",
+    start: "Jan 2025",
+    end: "May 2025",
+    note: "Algorithms, JavaScript, HTML, CSS, responsive layout and Git.",
   },
   {
-    school: 'Najot Ta\'lim',
-    program: 'Full-Stack Web Development bootcamp',
-    kind: '8 months',
-    start: 'Jul 2025',
-    end: 'Feb 2026',
-    note: 'Node.js, Express, NestJS, PostgreSQL, MongoDB, Prisma, TypeORM, Sequelize, GraphQL, Docker, CI/CD, React, Redux and Next.js. More than 60 projects and exams, all on GitHub.',
+    school: "Najot Ta'lim",
+    program: "Full-Stack Web Development bootcamp",
+    kind: "8 months",
+    start: "Jul 2025",
+    end: "Feb 2026",
+    note: "Node.js, Express, NestJS, PostgreSQL, MongoDB, Prisma, TypeORM, Sequelize, GraphQL, Docker, CI/CD, React, Redux and Next.js. More than 60 projects and exams, all on GitHub.",
   },
   {
-    school: 'Najot Ta\'lim',
-    program: 'Programming Foundation bootcamp',
-    kind: '3.5 months',
-    start: 'Mar 2025',
-    end: 'Jun 2025',
-    note: 'Algorithms, JavaScript, HTML, CSS, responsive layout and Git.',
+    school: "Tashkent University of Information Technologies (TUIT)",
+    program: "Economics, Faculty of Economics and Management in ICT",
+    kind: "Bachelor's degree, in progress",
+    start: "2024",
+    end: "Present",
+    note: "Studying how technology businesses run: economics, management and the ICT market.",
   },
-]
+];
 
 export const certificates = [
   {
